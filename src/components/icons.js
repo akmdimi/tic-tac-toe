@@ -1,7 +1,5 @@
 import React from "react";
-import {FaTimes, FaPen, FaCircle, FaRegCircle} from 'react-icons/fa';
-
-
+import {FaTimes, FaPen, FaRegCircle} from 'react-icons/fa';
 
 const Icon = ({name}) => {
     switch (name) {
@@ -12,14 +10,5 @@ const Icon = ({name}) => {
         default:
             return <FaPen className="icons"/>;
     }
-
-
-
-
-    // return (
-    //     <h1>
-    //     <FaTimes className= "icon" />
-    //     </h1>
-    // )
 }
 export default Icon;
